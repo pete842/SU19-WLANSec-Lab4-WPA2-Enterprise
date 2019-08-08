@@ -74,6 +74,11 @@ Fork of the original repo. Then, a Pull Request containing:
 - The names of the students. You can add this to the ```README.md```
 - Screen grab of your activities + comments
 ![screenshot 1](img/ss1.jpg)
+This image show the activity of the fake AP that we configured with the software `hostapd-wpe`.
+
+As we can see, the user named "pierrick" tried to connect itself to the network.
 ![screenshot 2](img/ss2.png)
+We used `john` to bruteforce the password using the previously given hash (the hashcat one worked as well).
 ![screenshot 3](img/ss3.png)
+This demonstrate that the user "pierrick" used the password "qwertz" to connect itself.
 - Answers to questions
