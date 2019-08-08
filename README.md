@@ -40,18 +40,21 @@ How to run the attack:
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
 > **_Answer:_** 
-
+The SSID (for a custom one during the lab) and the interface name to use (corresponding to the USB Wireless Adaptator).
 ---
 
 > **_Question:_** What type of hash did you capture ?
 > 
 > **_Answer:_** 
+A NetNTLM hash.
 
 ---
 
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
 > 
 > **_Réponse:_**
+- Open System Authentication
+- Shared Key Authentication (requires WEP)
 
 
 ## In case of problems...
@@ -70,4 +73,7 @@ Fork of the original repo. Then, a Pull Request containing:
 
 - The names of the students. You can add this to the ```README.md```
 - Screen grab of your activities + comments
+![screenshot 1](img/ss1.jpg)
+![screenshot 2](img/ss1.png)
+![screenshot 3](img/ss1.png)
 - Answers to questions
