@@ -29,9 +29,10 @@ For this attack to work, it may be necessary that the victim is configured to ig
 
 How to run the attack:
 
-- Install ```hostapd-wpe``` (if you are using Kali Linux, you probably already have a version installed. There may be different versions with slight variations on github...). Lire la documentation du site de l’outil ou d’autres ressource sur Internet pour comprendre son utilisation
-- Modify the ```hostapd-wpe``` configuration so that it proposes a network of your choice. If you're impersonating a network that is locally present, it may be difficult to attract victims unless you have a powerful interface. You may try to deauthenticate your victime and hope that it will attempt to connect to your fake network instead.  
-- Try to connect to your fake network (do not use real credentials!)
+- Install ```hostapd-wpe``` (if you are using Kali Linux, you probably already have a version installed. There may be different versions with slight variations on github...). When using Kali Linux, ```hostapd-wpe``` can be installed via ```apt-get```. 
+- Read the documentation of the tools and other ressources on the Internet to understand how it works.
+- Modify the ```hostapd-wpe``` configuration so that it proposes a network of your choice. For this exercise is might be better to create a completely fake non-existing network. If you're impersonating a network that is locally present/existing, it may be difficult to attract victims unless you have a powerful interface. You may try to deauthenticate your victim and hope that it will attempt to connect to your fake network instead. 
+- Try to connect to your fake network (do not use real credentials!) and capture the challenge.
 - Use a brute-forcing tool (```john```, ```asleap```, etc.) to attack the captured hash (use a simple password to minimise time).
 
 ### Answer the following questions :
