@@ -17,7 +17,7 @@ Please refer to the [MAC Security Lab](https://github.com/arubinst/SU19-WLANSec-
 
 ### WPA2 Enterprise Attack
 
-Networks using a WPA2 Enterprise authentication are considered today as very secure. Indeed, because the Master Key used to derive all other WPA keys is obtained from the authentication process, the dictionary and brute-force attacks used on WPA Personal are no longer applicable because we would need to try 2^256^ combinations.
+Networks using a WPA2 Enterprise authentication are considered today as very secure. Indeed, because the Master Key used to derive all other WPA keys is obtained from the authentication process, the dictionary and brute-force attacks used on WPA Personal are no longer applicable because we would need to try 2<sup>256</sup> combinations.
 
 There are, however, other means to attack Enterprise networks, based on misconfiguration or bad implementation of WiFi clients.
 
