@@ -74,6 +74,6 @@ Fork of the original repo. Then, a Pull Request containing:
 - The names of the students. You can add this to the ```README.md```
 - Screen grab of your activities + comments
 ![screenshot 1](img/ss1.jpg)
-![screenshot 2](img/ss1.png)
-![screenshot 3](img/ss1.png)
+![screenshot 2](img/ss2.png)
+![screenshot 3](img/ss3.png)
 - Answers to questions
