@@ -1,5 +1,9 @@
 # Wireless Networks and Security
 
+## Names
+Pierre Kohler, Pierrick Muller, Kim Wonkyeong
+=======
+
 ## WPA2 Enterprise Security
 
 __Korean/Swiss hybrid teams are highly encouraged__
