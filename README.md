@@ -64,6 +64,7 @@ hostapd-wpe supports the following EAP types for impersonation:
 4. EAP-TTLS/MSCHAP
 5. EAP-TTLS/CHAP
 6. EAP-TTLS/PAP
+
 (source: https://tools.kali.org/wireless-attacks/hostapd-wpe)
 
 ## In case of problems...
