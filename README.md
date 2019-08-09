@@ -57,9 +57,14 @@ A NetNTLM hash.
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
 > 
 > **_Réponse:_**
-- Open System Authentication
-- Shared Key Authentication (requires WEP)
-
+hostapd-wpe supports the following EAP types for impersonation:
+1. EAP-FAST/MSCHAPv2 (Phase 0)
+2. PEAP/MSCHAPv2
+3. EAP-TTLS/MSCHAPv2
+4. EAP-TTLS/MSCHAP
+5. EAP-TTLS/CHAP
+6. EAP-TTLS/PAP
+(source: https://tools.kali.org/wireless-attacks/hostapd-wpe)
 
 ## In case of problems...
 
